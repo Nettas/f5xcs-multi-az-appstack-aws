@@ -34,3 +34,38 @@ override.tf.json
 terraform.rc
 
 .terraform.lock.hcl
+
+# Local .terraform directories
+**/.terraform/*
+**/.terraform
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.tfvars
+
+# Crash log files
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+
+**/creds/
+prep.sh
+
+**/debug/*
+
+**/outputs/
+
+.DS_Store
+
+**/sites.json
+**/routes.json
+.pre-commit-config.yaml
+volterra_gcp_vpc_role.yaml
+key.json
+**/key.json
