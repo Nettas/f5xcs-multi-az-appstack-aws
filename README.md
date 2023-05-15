@@ -4,7 +4,7 @@ This is a non-official F5 repository.  This repo is not supported by F5 or DevCe
 
 This repo will provide a solution for deploying F5 XCS Multi-AZ AppStack in AWS.
 
-# Distributed Cloud AWS Multi-AZ AppStack
+# Distributed Cloud AWS Multi-AZ AppStack Deployment
 
 The goal of this solution is to provide the infrastructure for a working demo to deploy F5 Distributed Cloud AppStack in AWS in multiple availability zones.
 <!--TOC-->
@@ -43,7 +43,6 @@ The goal of this solution is to provide the infrastructure for a working demo to
     - Add Cluster Role Bidning for user.  Select ves-io-admin-cluster-role.
         - Subject - email of user account
 - Infrastructure buildout in AWS
-    - Run example_prep.sh
     - Export variables:
         - export VOLT_API_P12_FILE=/creds/.api-creds.p12
         - export VES_P12_PASSWORD=12345678
