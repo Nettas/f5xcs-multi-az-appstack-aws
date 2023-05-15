@@ -83,10 +83,10 @@ The goal of this solution is to provide the infrastructure for a working demo to
 | <a name="name"></a> [name](#inputs\_name) | REQUIRED:  This is your Distributed Cloud prefix name | `string` | `"cust-provided"` |
 | <a name="stack_name"></a> [stackname](#inputs\_stack\_name) | REQUIRED:  This is your Distributed Cloud AppStack name | `string` | `"aws-app-stack"` |
 | <a name="aws_region"></a> [aws_region](#inputs\_aws\_region) | REQUIRED:  This is your AWS Region | `string` | `"us-east-2"` |
-| <a name="aws_region_one_zone_a"></a> [aws_region_one_zone_a](#inputs\_aws\_region\_one\_zone\_a) | REQUIRED:  This is your AWS Region One AZ A| `string` | `"us-east2a"` |
-| <a name="aws_region_one_zone_b"></a> [aws_region_one_zone_b](#inputs\_aws\_region\_one\_zone\_b) | REQUIRED:  This is your AWS Region One AZ B| `string` | `"us-east2b"` |
-| <a name="aws_region_one_zone_c"></a> [aws_region_one_zone_c](#inputs\_aws\_region\_one\_zone\_c) | REQUIRED:  This is your AWS Region One AZ C| `string` | `"us-east2c"` |
-| <a name="aws_instance_type"></a> [aws_instance_type](#inputs\_aws\_instance\_type) | REQUIRED:  This is your AWS Instance Type | `string` | `"n1-stnadard-4"` |
+| <a name="aws_az1"></a> [aws_region_zone_a](#inputs\_aws\_region\_zone\_a) | REQUIRED:  This is your AWS Region One AZ A| `string` | `"us-east-2a"` |
+| <a name="aws_az2"></a> [aws_region_zone_b](#inputs\_aws\_region\_zone\_b) | REQUIRED:  This is your AWS Region One AZ B| `string` | `"us-east-2b"` |
+| <a name="aws_az3"></a> [aws_region_zone_c](#inputs\_aws\_region\_zone\_c) | REQUIRED:  This is your AWS Region One AZ C| `string` | `"us-east-2c"` |
+| <a name="aws_instance"></a> [aws_instance](#inputs\_aws\_instance) | REQUIRED:  This is your AWS Instance | `string` | `"t3.xlarge"` |
 | <a name="input_sshPublicKey"></a> [sshPublicKey](#input\_sshPublicKey) | OPTIONAL: ssh public key for instances | `string` | `""` |
 | <a name="input_api_p12_file"></a> [api\_p12\_file](#input\_api\_p12\_file) | REQUIRED:  This is the path to the Volterra API Key.  See https://volterra.io/docs/how-to/user-mgmt/credentials | `string` | `"./creds/f5-xc-lab-app.console.ves.volterra.io.api-creds.p12"` |
 | <a name="input_sshPublicKeyPath"></a> [sshPublicKeyPath](#input\_sshPublicKeyPath) | OPTIONAL: ssh public key path for instances | `string` | `"./creds/id_rsa.pub"` |
