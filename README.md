@@ -14,6 +14,7 @@ The goal of this solution is to provide the infrastructure for a working demo to
   - [High Level Topology](#topology)
   - [Requirements](#requirements)
   - [Modules](#modules)
+  - [Inputs](#inputs)
   - [Deployment](#deployment)
   - [Troubleshooting](#troubleshooting)
   - [Support](#support)
