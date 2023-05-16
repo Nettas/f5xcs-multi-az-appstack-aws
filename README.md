@@ -13,7 +13,6 @@ The goal of this solution is to provide the infrastructure for a working demo to
   - [To do](#to-do)
   - [High Level Topology](#topology)
   - [Requirements](#requirements)
-  - [Modules](#modules)
   - [Inputs](#inputs)
   - [Deployment](#deployment)
   - [Troubleshooting](#troubleshooting)
@@ -65,13 +64,6 @@ The goal of this solution is to provide the infrastructure for a working demo to
 | <a name="requirement_google"></a> [aws](#requirement\_aws) | ~> 4.0 |
 | <a name="requirement_http"></a> [http](#requirement\_http) | 2.1.1 |
 | <a name="requirement_volterrarm"></a> [volterrarm](#requirement\_volterrarm) | 0.11.6 |
-
-## Modules
-
-| Name | Source | Version |
-|------|--------|---------|
-| <a name="module_util"></a> [util](#module\_util) | ./util | n/a |
-| <a name="module_xcs"></a> [xcs](#module\_xcs) | ./xcs | n/a |
 
 ## Inputs
 
